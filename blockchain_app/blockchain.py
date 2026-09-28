@@ -5,8 +5,8 @@ import hashlib
 import json
 import uuid
 from datetime import datetime
-import Transaction
-import Block
+from .transaction import Transaction
+from .block import Block
 
 
 class Blockchain:

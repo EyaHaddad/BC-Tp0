@@ -13,7 +13,7 @@ class Transaction:
         self.receiver = receiver
         self.amount = amount
         self.timestamp = datetime.now().isoformat()
-    
+
     def is_valid(self):
         return (isinstance(self.sender, str)
             and isinstance(self.receiver, str)
@@ -32,3 +32,4 @@ class Transaction:
         }
     def __str__(self):
         return f"{self.sender} -> {self.receiver} : {self.amount}"
+
