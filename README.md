@@ -1,0 +1,1 @@
+This is a TP 0 initialization for the blockchain concept with a simple implementation
